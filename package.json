@@ -1,0 +1,19 @@
+{
+  "name": "roffee",
+  "version": "1.0.0",
+  "description": "Enjoy the rich aroma and authentic taste of our freshly brewed coffee, made from the finest beans.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm i --prefix ./client && npm run build --prefix ./client && npm i",
+    "server": "nodemon server"
+  },
+  "author": "Rolernock Goines",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "mongoose": "^8.8.3"
+  }
+}
